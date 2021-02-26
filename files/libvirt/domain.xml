@@ -31,7 +31,7 @@
     <input type='mouse' bus='ps2'/>
     <input type='keyboard' bus='ps2'/>
     <serial type="pty"/>
-    <graphics type="vnc" autoport="yes" keymap="en-us" listen="127.0.0.1"/>
+    <graphics type="vnc" autoport="yes" keymap="en-us" listen="0.0.0.0"/>
     <video>
       <model type="cirrus"/>
     </video>
